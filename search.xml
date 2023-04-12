@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>Graphics animation</title>
-      <link href="/2023/04/12/graphics-animation/"/>
-      <url>/2023/04/12/graphics-animation/</url>
-      
-        <content type="html"><![CDATA[<h1 id="do-I-actually-need-it"><a href="#do-I-actually-need-it" class="headerlink" title="do I actually need it?"></a>do I actually need it?</h1>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> -computer graphics </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vulkan projects</title>
       <link href="/2023/04/12/Vulkan-project/"/>
       <url>/2023/04/12/Vulkan-project/</url>
@@ -144,11 +125,11 @@
       
         <tags>
             
-            <tag> c++ </tag>
-            
             <tag> computer graphic </tag>
             
             <tag> game engine </tag>
+            
+            <tag> c++ </tag>
             
         </tags>
       
@@ -169,9 +150,9 @@
             
             <tag> unreal engine </tag>
             
-            <tag> c++ </tag>
-            
             <tag> blueprint </tag>
+            
+            <tag> c++ </tag>
             
         </tags>
       
