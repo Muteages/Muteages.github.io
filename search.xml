@@ -27,27 +27,6 @@
     
     
     <entry>
-      <title>Soft ray tracing</title>
-      <link href="/2023/04/12/Soft-ray-tracing/"/>
-      <url>/2023/04/12/Soft-ray-tracing/</url>
-      
-        <content type="html"><![CDATA[<h1 id="why-I-post-it-it’s-too-difficult"><a href="#why-I-post-it-it’s-too-difficult" class="headerlink" title="why I post it, it’s too difficult."></a>why I post it, it’s too difficult.</h1>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> c++ </tag>
-            
-            <tag> ray tracing </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>A simple mulitple player demo</title>
       <link href="/2023/04/12/A-simple-mulitple-player-demo/"/>
       <url>/2023/04/12/A-simple-mulitple-player-demo/</url>
