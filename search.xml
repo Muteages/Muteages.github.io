@@ -104,15 +104,15 @@
       <link href="/2023/04/12/Game-Engine-From-Scratch/"/>
       <url>/2023/04/12/Game-Engine-From-Scratch/</url>
       
-        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/wSgtS24GeBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Showcase video: <a href="https://youtu.be/wSgtS24GeBE">Here</a></p><p>Repo: <a href="https://github.com/Muteages/QUASARTS-Group-project">Here</a></p><p>This is a group project in my MSc in University of Leeds. We made a simple game engine from scratch.</p><p>I led the development of <a href="https://github.com/Muteages/QUASARTS-Group-project/blob/main/project/QUASARTS/Engine/src/Scripts/README.md">script system</a> and audio system, also helped integrate different modules with script and ECS system.</p>]]></content>
+        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/wSgtS24GeBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Showcase video: <a href="https://youtu.be/wSgtS24GeBE">Here</a></p><p>Repo: <a href="https://github.com/Muteages/QUASARTS-Group-project">Here</a></p><p>This is a group project in my MSc in University of Leeds. We made a simple game engine from scratch.</p><p>I led the development of script system<a href="https://github.com/Muteages/QUASARTS-Group-project/blob/main/project/QUASARTS/Engine/src/Scripts/README.md">document here</a> and audio system, also helped integrate different modules with script and ECS system.</p>]]></content>
       
       
       
         <tags>
             
-            <tag> c++ </tag>
-            
             <tag> game engine </tag>
+            
+            <tag> c++ </tag>
             
             <tag> Lua </tag>
             
@@ -133,9 +133,9 @@
       
         <tags>
             
-            <tag> unreal engine </tag>
-            
             <tag> c++ </tag>
+            
+            <tag> unreal engine </tag>
             
             <tag> blueprint </tag>
             
