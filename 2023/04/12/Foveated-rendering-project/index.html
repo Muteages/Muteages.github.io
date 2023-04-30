@@ -166,7 +166,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/PhotoLinkedin.jpg">
       <meta itemprop="name" content="Chaoshan Huang">
-      <meta itemprop="description" content="Crazy gamer">
+      <meta itemprop="description" content="Crazzzzzzy">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -301,7 +301,7 @@
     <img class="site-author-image" itemprop="image" alt="Chaoshan Huang"
       src="/images/PhotoLinkedin.jpg">
   <p class="site-author-name" itemprop="name">Chaoshan Huang</p>
-  <div class="site-description" itemprop="description">Crazy gamer</div>
+  <div class="site-description" itemprop="description">Crazzzzzzy</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -410,6 +410,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
