@@ -18,15 +18,15 @@
     var CONFIG = {"hostname":"muteages.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="A c++ project which simulates the whole process of OpenGL rendering pipeline.">
+  <meta name="description" content="A C++ project which simulates the whole process of OpenGL rendering pipeline.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Graphics pipeline in c++">
+<meta property="og:title" content="Fake OpenGL Pipeline">
 <meta property="og:url" content="https://muteages.github.io/2023/04/12/Graphics-pipeline/">
 <meta property="og:site_name" content="cHaos">
-<meta property="og:description" content="A c++ project which simulates the whole process of OpenGL rendering pipeline.">
+<meta property="og:description" content="A C++ project which simulates the whole process of OpenGL rendering pipeline.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-04-12T02:49:52.960Z">
-<meta property="article:modified_time" content="2023-04-23T14:50:54.102Z">
+<meta property="article:modified_time" content="2023-04-30T18:58:03.727Z">
 <meta property="article:author" content="Chaoshan Huang">
 <meta property="article:tag" content="computer graphic">
 <meta property="article:tag" content="rendering pipeline">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>Graphics pipeline in c++ | cHaos</title>
+  <title>Fake OpenGL Pipeline | cHaos</title>
   
 
 
@@ -172,7 +172,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Graphics pipeline in c++
+          Fake OpenGL Pipeline
         </h1>
 
         <div class="post-meta">
@@ -189,7 +189,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-04-23 14:50:54" itemprop="dateModified" datetime="2023-04-23T14:50:54Z">2023-04-23</time>
+                <time title="Modified: 2023-04-30 18:58:03" itemprop="dateModified" datetime="2023-04-30T18:58:03Z">2023-04-30</time>
               </span>
 
           
@@ -203,7 +203,18 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="building…"><a href="#building…" class="headerlink" title="building…"></a>building…</h1><h2 id="outline"><a href="#outline" class="headerlink" title="outline"></a>outline</h2><p>show the pipeline detail?</p>
+        <p>This is an assessment in my MSc in University of Leeds. I implemented the whole OpenGL rendering pipeline in C++.</p>
+<ul>
+<li>Vertex Shading</li>
+<li>Transform</li>
+<li>Rasaterization</li>
+<li>Fragment Shading</li>
+<li>Gouraud Shading</li>
+<li>Phong Shading</li>
+<li>Depth test</li>
+<li>Textures</li>
+</ul>
+<p>Repo: <a target="_blank" rel="noopener" href="https://github.com/Muteages/Fake-OpenGL">Here</a></p>
 
     </div>
 
@@ -224,8 +235,8 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/04/12/Game-Engine-From-Scratch/" rel="prev" title="Game engine from scratch">
-      <i class="fa fa-chevron-left"></i> Game engine from scratch
+    <a href="/2023/04/12/Game-Engine-From-Scratch/" rel="prev" title="QUASARTS Orbit Game Engine">
+      <i class="fa fa-chevron-left"></i> QUASARTS Orbit Game Engine
     </a></div>
       <div class="post-nav-item">
     <a href="/2023/04/12/Foveated-rendering-project/" rel="next" title="Foveated rendering project">
@@ -289,7 +300,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#building%E2%80%A6"><span class="nav-number">1.</span> <span class="nav-text">building…</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#outline"><span class="nav-number">1.1.</span> <span class="nav-text">outline</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 

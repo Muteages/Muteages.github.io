@@ -31,7 +31,7 @@
       <link href="/2023/04/12/LCC/"/>
       <url>/2023/04/12/LCC/</url>
       
-        <content type="html"><![CDATA[<h1 id="Online-MultiPlayer-Demo"><a href="#Online-MultiPlayer-Demo" class="headerlink" title="Online MultiPlayer Demo"></a>Online MultiPlayer Demo</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/84yevlTno2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Showcase video: <a href="https://youtu.be/84yevlTno2I">Here</a></p><h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>This project was made by blueprint</p><ul><li>Implemented create&#x2F;search&#x2F;join an session moudel.</li><li>Implemented the basic replication related stuff. i.e: being able to synchronize data between clients and server.</li></ul><h1 id="Endless-Runner"><a href="#Endless-Runner" class="headerlink" title="Endless Runner"></a>Endless Runner</h1><p>Repo: <a href="https://github.com/Muteages/EndlessRun">Here</a></p><p>Sorce Code: <a href="https://github.com/Muteages/EndlessRun/tree/main/Source/EndlessRunner">Here</a></p><h2 id="Overview-1"><a href="#Overview-1" class="headerlink" title="Overview"></a>Overview</h2><p>This project was made by C++ script</p><ul><li>Implemented a simple animation state machine to switch between different animation clips.</li></ul><p><img src="/images/Animation.png" alt="Animation"></p><ul><li>Implemented the movement of the character.</li></ul><p><img src="/images/CharacterMovement.png" alt="CharacterMovement"></p><ul><li>Implemented a Endless road actor which could keep spwaning new tiles and obstacles when the character hit the check point and destroying old ones.</li></ul><p><img src="/images/EndlessRoad.png" alt="Road"></p><h1 id="A-simple-Shop-System"><a href="#A-simple-Shop-System" class="headerlink" title="A simple Shop System"></a>A simple Shop System</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/HZ0DBP67xjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>ShowCase Video: <a href="https://youtu.be/HZ0DBP67xjY">Here</a></p><h2 id="Overview-2"><a href="#Overview-2" class="headerlink" title="Overview"></a>Overview</h2><p>This project was made by blueprint.</p><ul><li>Implemented the functionality to check the items’ detail info and buy&#x2F;return them to shop while updating cost and remaining money in real-time.</li><li>Implemented the inventory system to show the item list.</li></ul><h1 id="AI-Enemy"><a href="#AI-Enemy" class="headerlink" title="AI Enemy"></a>AI Enemy</h1><h2 id="Overview-3"><a href="#Overview-3" class="headerlink" title="Overview"></a>Overview</h2><p>This project was made by blueprint and it has been converted into C++ and integrated in my personal project: <a href="https://muteages.github.io/2023/04/12/Fantasy-Computer-Co/">Fantasy Computer Co</a></p><p>Repo: <a href="https://github.com/Muteages/LCC-AI">Here</a></p><ul><li>Implemented the AI behavior tree</li><li>Implemented AI random movement</li><li>Implemented AI patrol movement</li><li>Implemented AI sight and sound perception</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="Online-MultiPlayer-Demo"><a href="#Online-MultiPlayer-Demo" class="headerlink" title="Online MultiPlayer Demo"></a>Online MultiPlayer Demo</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/84yevlTno2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>Showcase video: <a href="https://youtu.be/84yevlTno2I">Here</a></p><p>This project was made by blueprint</p><ul><li>Implemented create&#x2F;search&#x2F;join an session moudel.</li><li>Implemented the basic replication related stuff. i.e: being able to synchronize data between clients and server.</li></ul><h1 id="Endless-Runner"><a href="#Endless-Runner" class="headerlink" title="Endless Runner"></a>Endless Runner</h1><p>Repo: <a href="https://github.com/Muteages/EndlessRun">Here</a></p><p>Sorce Code: <a href="https://github.com/Muteages/EndlessRun/tree/main/Source/EndlessRunner">Here</a></p><p>This project was made by C++ script</p><ul><li>Implemented a simple animation state machine to switch between different animation clips.</li></ul><p><img src="/images/Animation.png" alt="Animation"></p><ul><li>Implemented the movement of the character.</li></ul><p><img src="/images/CharacterMovement.png" alt="CharacterMovement"></p><ul><li>Implemented a Endless road actor which could keep spwaning new tiles and obstacles when the character hit the check point and destroying old ones.</li></ul><p><img src="/images/EndlessRoad.png" alt="Road"></p><h1 id="A-simple-Shop-System"><a href="#A-simple-Shop-System" class="headerlink" title="A simple Shop System"></a>A simple Shop System</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/HZ0DBP67xjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p>ShowCase Video: <a href="https://youtu.be/HZ0DBP67xjY">Here</a></p><p>This project was made by blueprint.</p><ul><li>Implemented the functionality to check the items’ detail info and buy&#x2F;return them to shop while updating cost and remaining money in real-time.</li><li>Implemented the inventory system to show the item list.</li></ul><h1 id="AI-Enemy"><a href="#AI-Enemy" class="headerlink" title="AI Enemy"></a>AI Enemy</h1><p>This project was made by blueprint and it has been converted into C++ and integrated in my personal project: <a href="https://muteages.github.io/2023/04/12/Fantasy-Computer-Co/">Fantasy Computer Co</a></p><p>Repo: <a href="https://github.com/Muteages/LCC-AI">Here</a></p><ul><li>Implemented the AI behavior tree</li><li>Implemented AI random movement</li><li>Implemented AI patrol movement</li><li>Implemented AI sight and sound perception</li></ul>]]></content>
       
       
       
@@ -79,11 +79,11 @@
     
     
     <entry>
-      <title>Graphics pipeline in c++</title>
+      <title>Fake OpenGL Pipeline</title>
       <link href="/2023/04/12/Graphics-pipeline/"/>
       <url>/2023/04/12/Graphics-pipeline/</url>
       
-        <content type="html"><![CDATA[<h1 id="building…"><a href="#building…" class="headerlink" title="building…"></a>building…</h1><h2 id="outline"><a href="#outline" class="headerlink" title="outline"></a>outline</h2><p>show the pipeline detail?</p>]]></content>
+        <content type="html"><![CDATA[<p>This is an assessment in my MSc in University of Leeds. I implemented the whole OpenGL rendering pipeline in C++.</p><ul><li>Vertex Shading</li><li>Transform</li><li>Rasaterization</li><li>Fragment Shading</li><li>Gouraud Shading</li><li>Phong Shading</li><li>Depth test</li><li>Textures</li></ul><p>Repo: <a href="https://github.com/Muteages/Fake-OpenGL">Here</a></p>]]></content>
       
       
       
@@ -100,7 +100,7 @@
     
     
     <entry>
-      <title>Game engine from scratch</title>
+      <title>QUASARTS Orbit Game Engine</title>
       <link href="/2023/04/12/Game-Engine-From-Scratch/"/>
       <url>/2023/04/12/Game-Engine-From-Scratch/</url>
       
@@ -110,9 +110,9 @@
       
         <tags>
             
-            <tag> game engine </tag>
-            
             <tag> c++ </tag>
+            
+            <tag> game engine </tag>
             
             <tag> Lua </tag>
             
@@ -133,9 +133,9 @@
       
         <tags>
             
-            <tag> c++ </tag>
-            
             <tag> unreal engine </tag>
+            
+            <tag> c++ </tag>
             
             <tag> blueprint </tag>
             
