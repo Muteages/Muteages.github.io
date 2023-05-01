@@ -8,7 +8,7 @@
       <link href="/2023/04/12/Vulkan-project/"/>
       <url>/2023/04/12/Vulkan-project/</url>
       
-        <content type="html"><![CDATA[<h1 id="building"><a href="#building" class="headerlink" title="building.."></a>building..</h1>]]></content>
+        <content type="html"><![CDATA[<p>These projects were made in one of my MSc courses, which introduced Vulkan APIs and different rendering techniques. </p><h2 id="BlinnPhong-shading"><a href="#BlinnPhong-shading" class="headerlink" title="BlinnPhong shading"></a>BlinnPhong shading</h2><p><img src="/images/BlinnPhong.png"></p><p><strong>Blinn-Phong fragment shader</strong><br><img src="/images/PhongShader.png" alt="Fragment Shader"></p><h2 id="PBR-shading"><a href="#PBR-shading" class="headerlink" title="PBR shading"></a>PBR shading</h2><p><img src="/images/PBR.png"></p><p><strong>PBR fragment shader</strong><br><img src="/images/PBRShader.png"></p><h2 id="Animated-Multiple-lights"><a href="#Animated-Multiple-lights" class="headerlink" title="Animated Multiple lights"></a>Animated Multiple lights</h2><p><img src="/images/Lights.gif" alt="Lights"></p><h2 id="Post-processing-Pixelate"><a href="#Post-processing-Pixelate" class="headerlink" title="Post-processing(Pixelate)"></a>Post-processing(Pixelate)</h2><p><img src="/images/Pixelate.png" alt="Pixelate"></p><p><strong>Fragment shader</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">float width = screenSize.size.x;</span><br><span class="line">float height = screenSize.size.y;</span><br><span class="line">float T = 8.0f;  // T * T  tile</span><br><span class="line">vec2 size = textureSize(uTexColor,0);</span><br><span class="line">vec2 coord = vec2(v2fUV.x * width, v2fUV.y * height);</span><br><span class="line">vec2 pixelCoord = vec2(round(coord.x / T) * T,  round(coord.y / T) * T);  // get central corrdinate</span><br><span class="line">vec2 finalUVCoord = vec2(pixelCoord.x / width, pixelCoord.y / height);</span><br><span class="line">oColor = vec4(texture(uTexColor, finalUVCoord).rgb, 1.0f);</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -58,7 +58,7 @@
       <link href="/2023/04/12/Foveated-rendering-project/"/>
       <url>/2023/04/12/Foveated-rendering-project/</url>
       
-        <content type="html"><![CDATA[<h1 id="building"><a href="#building" class="headerlink" title="building.."></a>building..</h1>]]></content>
+        <content type="html"><![CDATA[<p>This is my dissertation project which is based on Unity VR.</p><p><img src="/images/Scene.PNG"></p><p>The purpose of the project is to find a more efficient method to reduce cybersickness in VR environment by using foveated rendering technique.</p><p><img src="/images/Foveated.PNG"></p><p>Testers were asked to move in the test scenario and try their best to find reference items under different render methods and filled the quiz at the end.</p><h3 id="Some-Render-Effects"><a href="#Some-Render-Effects" class="headerlink" title="Some Render Effects"></a>Some Render Effects</h3><p><strong>Edge detect</strong></p><p><img src="/images/EdgeDetectScreenShot.PNG"></p><p><strong>Shader</strong></p><p><img src="/images/EdgeDetectionShader.PNG"></p><p><strong>Darken Dynamically</strong></p><p><img src="/images/DarkenDynamicallyScreenshot.PNG"></p><p>Repo: <a href="https://github.com/Muteages/MSc_Project">Here</a></p>]]></content>
       
       
       
@@ -83,7 +83,7 @@
       <link href="/2023/04/12/Graphics-pipeline/"/>
       <url>/2023/04/12/Graphics-pipeline/</url>
       
-        <content type="html"><![CDATA[<p>This is an assessment in my MSc in University of Leeds. I implemented the whole OpenGL rendering pipeline in C++.</p><ul><li>Vertex Shading</li><li>Transform</li><li>Rasaterization</li><li>Fragment Shading</li><li>Gouraud Shading</li><li>Phong Shading</li><li>Depth test</li><li>Textures</li></ul><p>Repo: <a href="https://github.com/Muteages/Fake-OpenGL">Here</a></p>]]></content>
+        <content type="html"><![CDATA[<p>This is an assessment in my MSc in University of Leeds. We were requested to implement the whole render pipeline just in C++. From this project, I got a deeper understanding of render pipeline.</p><ul><li>Vertex Shading</li><li>Transform</li><li>Rasaterization</li><li>Fragment Shading</li><li>Gouraud Shading</li><li>Phong Shading</li><li>Depth test</li><li>Textures</li></ul><p>Repo: <a href="https://github.com/Muteages/Fake-OpenGL">Here</a></p>]]></content>
       
       
       
